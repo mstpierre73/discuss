@@ -17,3 +17,7 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
+
+  ## Aknowledgments
+
+  This project was based on a project from Stephen Grider's course "The Complete Elixir and Phoenix Bootcamp".
