@@ -1,4 +1,4 @@
-<h2>Topics List</h2>
+<h4>Topics List</h4>
 
 <ul class="collection">
     <%= for topic <- @topics do %>
@@ -7,3 +7,9 @@
         </li>
     <% end %>
 </ul>
+
+<div class="action-btn">
+    <%= link to: Routes.topic_path(@conn, :new), class: "btn-floating btn-large waves-effect waves-light red" do %>
+        <i class="material-icons">add</i>
+    <% end %>
+</div>
